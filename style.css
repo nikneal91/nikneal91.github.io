@@ -4,14 +4,14 @@ section {display:block;}
 
 body {
     line-height: 1.4;
-    background: #456:
+    background-color:#456:
 }
 
 #wrapper {
     min-height: 390px;
     width: 960px;
     margin: 100px auto 20px;
-    background: url(me.png) no-repeat 110% 0;
+    
     font-family: 'IM Fell DW Pica', times, serif;
 }
 
