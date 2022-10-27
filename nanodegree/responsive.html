@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project-Responsive Nanodegree FrontEnd Web Developer</title>
+
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<style type="text/css">
+	body{
+
+		font-family: Verdana, sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	}
+	.orange{
+color:#f07c17;
+	}
+.gray{
+	color:gray;
+	font-weight: bold;
+}
+.large{
+font-size: 2.5em;
+}
+.small{
+	font-size: 1.5em;
+}
+.res{
+	max-width: 100%;
+}
+.responsive{
+	width:100%;
+}
+.text-wrap{
+	word-wrap:break-word;
+}
+ 
+@media(min-width:500px) and (max-width:766px){
+.im-mid{
+width:50%;
+float:left;
+}
+.im-rt{
+margin-left: 1em;
+width:40%;
+float:left;	
+}
+div{
+	float: right;
+	width:100%;
+}
+}
+
+body{
+
+		font-family: Verdana, sans-serif;
+	font-style: italic;
+	}
+	.orange{
+color:#f07c17;
+	}
+.gray{
+	color:gray;
+	font-weight: bold;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+}
+ 
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="nav">
+      <ul>
+        <li class="home"><a href="index.html">Simple</a></li>
+        <li class="responsive"><a href="responsive.html">Responsive</a></li>
+       
+       
+       
+      </ul>
+    </div>
+
+<div class="container-responsive">
+
+<div class="page-header text-center">
+<h1 class="visible-xs small">Orange Udacity Mug</h1> 
+<h1 class="hidden-xs large">Orange Udacity Mug</h1> 
+</div>
+
+<div class="row">
+<div class=" col-sm-6 col-md-4 ">
+<div class="im-mid">
+<img class="responsive" src="./images/download.png" alt="Udacity Mug" /></div>
+<div class="im-rt">
+<h3 class="orange">Main Features</h3>
+<ul>
+<li>Holds your favourite drinks.</li>
+<li>Energzing drinks.</li>
+<li>Reminds you to learn.</li>
+</ul>
+</div>
+</div>
+
+
+
+<div class=" col-sm-6 col-md-8 text-wrap">
+<h2 class="orange">A Good Way To Start a Day</h2>
+<div>
+<p class="gray">Bacon ipsum dolor sit amet shoulder drumstick spare ribs shank, magna in sirloin. Turducken dolore tempor irure tenderloin pork belly shankle. Excepteur in strip steak pork chop voluptate tongue, hamburger nostrud kevin enim nulla ut cow incididunt. Do pancetta swine hamburger incididunt in excepteur irure pig labore est venison dolor ex adipisicing. Labore capicola veniam, commodo corned beef ut non rump swine pork chop exercitation ball tip ham deserunt.
+</p>
+</div>
+<div>
+<p class="gray">Ad tri-tip short loin anim beef ribs eu ball tip velit deserunt frankfurter sunt nisi filet mignon. Pork loin quis ham hock mollit cupidatat. Id ground round chuck jerky meatball laborum frankfurter short loin in biltong t-bone doner ea irure. Culpa ex ut id. Nostrud t-bone bresaola pariatur qui tri-tip pork chop, ribeye irure velit pork et in dolore.
+</p></div>
+<div>
+<p class="gray">Bacon in sunt dolor fatback excepteur turkey chuck velit proident frankfurter quis. Nisi shank sirloin sed tenderloin. Magna short ribs kielbasa biltong minim. In esse t- bone est tail kielbasa dolor ullamco tongue mollit sint sirloin chuck venison anim. Short ribs dolore adipisicing, bresaola venison cupidatat short loin turducken biltong leberkas andouille elit ad in occaecat. Ground round pariatur cupidatat ham hock magna tempor ea jowl duis.</p>
+</div>
+
+</div><!--row-->
+</div><!--Container-->
+</body>
+</html>
