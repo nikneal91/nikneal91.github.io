@@ -6,7 +6,7 @@ h1,p {
   text-align:center;
 }
 
-main {
+.survey-form {
   padding:1em;
   width:90%;
   max-width:800px;
