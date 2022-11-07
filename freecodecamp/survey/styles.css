@@ -1,0 +1,55 @@
+body {
+background:rgba(124,123,50,0.3);
+}
+
+h1,p {
+  text-align:center;
+}
+
+main {
+  padding:1em;
+  width:90%;
+  max-width:800px;
+  margin-left : auto;
+  margin-right:auto; 
+  background:rgba(255,255,255,0.4); 
+}
+
+.inline {
+  width:unset;
+  vertical-align:middle;
+  margin:0;
+  padding:0;
+}
+
+fieldset {
+  border:none;
+  border-bottom:1px solid #ccc;
+}
+
+fieldset:last-of-type {
+  border:unset;
+}
+
+label {
+  display:block;
+  margin:0.5rem 0;
+  
+}
+
+input, select {
+  height:1.5rem;
+}
+
+input,select,textarea {
+  width:100%;
+  margin:0.4rem auto; 
+}
+
+input[type="submit"] {
+  width:80%;
+  display:block;
+  max-width:600px;
+  margin-left: auto;
+  margin-right:auto;  
+}

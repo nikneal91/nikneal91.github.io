@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <main>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <fieldset>
+<label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required/></label>
+<label id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter your email" required/></label>
+<label id="number-label" for="number">Age <input id="number" type="number" min="13" max="120" placeholder="Enter your age" required/></label>
+
+<label>Which option best describes your current role?<select id="dropdown">
+  <option>select current role</option>
+  <option>Student</option>
+  <option>Freelancer</option>
+  <option>Other</option>
+  </select></label>
+  </fieldset>
+<fieldset>
+<label>
+  Would you recommend freeCodeCamp to a friend?</label>
+  <label><input class="inline" type="radio" name=recommend value="Yes" /> Yes</label>
+  <label><input class="inline" type="radio" name=recommend value="No" /> No</label>
+  <label><input class="inline" type="radio" name=recommend value="Maybe" /> Maybe</label>
+</fieldset>
+<fieldset>
+  <label>What would you like to see improved?</label>
+  <label><input class="inline" type="checkbox" value="FrontEnd" /> FrontEnd</label>
+  <label><input class="inline" type="checkbox" value="Backend" /> BackEnd</label>
+  <label><input class="inline" type="checkbox" value="Data Visualization" /> Data Visualization</label>
+</fieldset>
+<fieldset>
+  <label for="comments">Any comments or suggestions?</label>
+  <textarea rows="5" id="comments"></textarea>
+</fieldset>
+<fieldset>
+<input id="submit" type="submit" value="Submit" />
+</fieldset>
+</form>
+  </main>
+</body>
+
+</html>
